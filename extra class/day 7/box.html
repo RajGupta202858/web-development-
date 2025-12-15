@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1 ,  #box2 , #box3 {
+               border: 5px solid rgb(8, 19, 21) ;
+               padding: auto;
+               margin: 5px;
+               background-color: rgba(255, 0, 0, 0.381);
+               width: 200px;
+               height: 200px;
+             }
+             
+        .container{
+            background-color: yellow;
+            display:flex ;
+            flex-direction: column;
+            flex-wrap: wrap ;
+            width: 1400px;
+            height: 700px;
+            justify-content:left;
+            align-items: center;
+            
+        }
+
+         #box1{
+            flex-grow: 2;
+        } 
+        #link1:hover{
+color: brown;
+        }
+
+          #link2:active{
+          color: yellowgreen;
+
+        }
+
+          #link3:visited{
+            color: aquamarine;
+
+        }
+
+          #link4:link{
+           color: blueviolet;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box1">  1     Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, saepe ipsam. Iusto laudantium quae, dolorum suscipit tenetur culpa aliquam cum repellat nemo sit commodi incidunt magnam alias numquam esse </div>
+        <div id="box2">  2     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium molestias totam, vitae harum modi quas laborum magni consectetur voluptatum, obcaecati maxime debitis iste officiis eveniet molestiae </div>
+        <div id="box3">  3     Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iure est eaque quas nulla. Asperiores eveniet vitae libero, molestiae cum facilis animi optio alias perferendis quae sit, minus tempora ist</div>
+        </div>
+<div>
+ <a href="https://google.com" id="link1">google</a>
+ <a href="https://facebook.com" id="link2">facebook</a>
+ <a href="https://instagram.com" id="link3">instagram</a>
+ <a href="https://whatsapp.com" id="link4">whatsapp</a>
+    
+</div></body>
+</html>

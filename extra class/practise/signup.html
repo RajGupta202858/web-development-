@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+
+    <link rel="stylesheet" href="stylee.css">
+
+    <style>
+        body {
+            text-align: right;
+            background-image: url('https://tse1.mm.bing.net/th/id/OIP.EeJhGNAd9PBXbFskSN7ENgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3') ;
+            background-size: 1000px 800px;
+
+            width: 80%;
+            height: 80%;
+            background-repeat: no-repeat;
+        }
+
+      
+        
+
+        label {
+            display: inline-block;
+            width: 170px;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body >
+
+    <h1 style="color:#56150d; text-align:left;"  >
+        <b><i><u>SIGN-UP</u></i></b>
+    </h1>
+
+    <div class="form-box">
+        <form action="/submit" method="post">
+
+            <div>
+                <label for="name"><b>Full Name:</b></label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="Enter your full name">
+            </div>
+            <br>
+
+            <div>
+                <label for="email"><b>Email:</b></label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+            </div>
+            <br>
+            <div>
+                <label for="user name"> <b> User name : </b></label>
+                <br>
+                <input type="user name" id="user name" placeholder="user name">
+            </div>
+            <br>
+            <div>
+                <label for="password"><b>Password:</b></label>
+                <br>
+                <input type="password" id="password" name="password" placeholder="Enter password">
+            </div>
+            <br>
+
+            <div>
+                <label for="confirm_password"><b>Confirm Password:</b></label>
+                <br>
+                <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm password">
+            </div>
+            <br>
+            <br>
+
+            <div>
+                <label><b>Gender:</b></label>
+                <br>
+
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <br>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label>
+            </div>
+            <br>
+        
+
+            <div>
+                <label for="country"><b>Country:</b></label>
+                <br>
+                <select id="country" name="country">
+                    <br>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label type="number"><b> Phone number : </b></label>
+                <br>
+                <input type="number" id="Phone name" name="Phone number" placeholder="Phone number">
+            </div>
+            <br>
+
+            <button type="submit">SIGN-UP</button>
+
+            <br>
+                <p> <b> <i style="color: red;" > If you have already account  </i></b> </p>     
+      
+                
+        </form>
+    </div>
+    <!-- link to login page -->
+    <a href="login.html">  <button type="submit">Login</button></a>  
+
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYwXH94peZ8Wl5O94Sf_vFU7xLZLozmVTmCQ&s);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.border{
+    margin: auto;
+    align-items: center;
+    text-decoration: yellow;
+    border-width: 10px;
+    border: solid rgb(14, 9, 6);
+    padding: 30px;
+    background-color: rgb(225, 160, 61,0.4);
+    width: 500px;
+    background-size: cover;
+background-repeat: no-repeat;
+
+
+
+}
+
+
+.dro{
+    border-width: 5px;
+    border: solid  rgb(90, 14, 14);
+    width: 390px;
+     padding: 30px;
+      margin: auto;
+      
+
+}
+
+img{
+width: 400px;
+margin: auto;
+
+}
+
+.hd{
+    text-align: center;
+    border-width: 5px;
+    width: 450px;
+    border: solid rgb(74, 20, 10);
+     padding: 10px;
+      margin: 10px;
+      
+       
+
+}
+.hd:hover{
+    color: darkgoldenrod;
+}
+.para{
+    text-transform: initial;
+    border-width: 5px;
+    width: 400px;
+    border: solid rgb(74, 10, 10);
+     padding: 30px;
+      margin: 20px;
+     
+}
