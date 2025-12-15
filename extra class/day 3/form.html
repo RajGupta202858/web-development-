@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>  </p>
+
+    <h2> signup form</h2>
+
+    <!-- Form wrapper fixed so inputs are inside the form element -->
+    <form action="/submit" method="post">
+    <div>
+        <label for="name"> Full name : </label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name : " required/>
+    </div>
+    <br>
+    <div>
+         <label for="Roll number"> Roll number : </label>
+        <input type="text" id="number" name="Roll number" placeholder="Enter your full roll number : " required/>
+    </div>
+    <br>
+    <div>
+         <label for="email"> full Email : </label>
+        <input type="email" id="email" name="email" placeholder="Enter your full email : " required/>
+    </div>
+    <br>
+    <div>
+         <label for="Phone number"> Phone number : </label>
+        <input type="number" id="number" name="Phone number" placeholder="Enter your full Phone number : " required/>
+    </div>
+    <br>
+    <div>
+         <label for="password"> Password : </label>
+        <input type="password" id="password" name="password" placeholder="Enter your password : " required/>
+    </div>
+    <br>
+    <div>
+         <label for="confirm password"> Confirm Password : </label>
+        <input type="password" id="confirm password" name="confirm password" placeholder="Enter your confirm password : " required/>
+    </div>
+    <br>
+    <div>
+        <label for="gender"> Gender : </label>
+        <input type="radio" id="male"   name="gender" value="male"/>  
+                <label for="male"> male  </label>
+
+        <input type="radio" id="female" name="gender" value="female"/>
+                <label for="female"> female </label>
+    </div>
+    <br>   
+    <div>
+        <label for="country"> Country : </label>
+        <select id="country" name="country">
+            <option value="india"> India </option>
+            <option value="usa"> USA </option>
+            <option value="uk"> UK </option>
+            <option value="australia"> Australia </option>
+            <option value="canada"> Canada </option>
+        </select>   
+    </div>
+    <br>
+     <div>
+        <label for="state"> state : </label>
+        <select id="state" name="state">
+            <option value="jharkhand"> jharkhand </option>
+            <option value="delhi"> delhi </option>
+            <option value="mumbai"> mumbai </option>
+            <option value="west bangle"> west bangle </option>
+            <option value="kerla"> kerla </option>
+        </select>   
+    </div>
+    <br>
+    <div>
+        <label for="dob"> Date of Birth : </label>
+        <input type="date" id="dob" name="dob" required/>
+    </div>
+    <br>
+    
+    <div>
+        <label for="bio"> Short Bio : </label>
+        <textarea id="bio" name="bio" rows="4" cols="30" placeholder="Tell us about yourself..."></textarea>
+    </div>
+    <br>
+
+    <div>
+        <label for="terms"> Accept Terms and Conditions : </label>
+        <input type="checkbox" id="terms" name="terms" required/> I agree to the terms and conditions
+    </div>
+    <br>
+    <button type="submit"> submit </button> 
+    </form>
+
+</body>
+</html>

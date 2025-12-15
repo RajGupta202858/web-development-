@@ -1,0 +1,15 @@
+#para {
+    color: rgb(4, 90, 90);
+}
+
+.one{
+    color: grey;
+}
+h3.one{
+    color: rgba(10, 98, 20,0.4);
+    text-decoration-color: blueviolet;
+}
+body{
+    background-image: url(https://remove.photos/images/demo/index-demo1.webp);
+    background-size: cover;
+}
